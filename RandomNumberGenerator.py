@@ -5,7 +5,12 @@ while True:
     time.sleep(1)
     f = open("Request.txt", "r")
     read_text = f.readline()
-    print(read_text)
+
+    # change from Raul Preciado
+    # I commented out the line below so that it doesn't keep
+    # printing blank lines as it scans for a reqest.
+
+   # print(read_text)
     f.close()
 
     if read_text == "Send a number":
